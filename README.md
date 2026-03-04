@@ -18,8 +18,8 @@ In this lab you've learned the basics of number theory as it relates to subtract
 ## Lab Questions
 
 ### 1 - Explain the differences between our Half Adder from last lab and the Half Subtractor from this lab.
-
+The Main diffrence is the carry and borrow, because both truth tables were the exact same except for both, thus resulting in a diffrent equation for borrow.
 ### 2 - What about the end around carry of One’s Complement makes it hard to use and implement?
-
+It just makes it more complex logically to implement. This is becasue you have to carry all the way around back to the LSB.
 ### 3 - What is the edge case and problem with Two’s Complement number representation?
-
+The edge case would be -128 for 8 bit which would cause overflow trying to find the complement.
